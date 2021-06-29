@@ -1,0 +1,24 @@
+Notes
+
+There is no sample code in Chapter 1.Origians of Max OS. 
+
+The first release of an Apple operating system after Apple announced that it would purchase NeXT
+was in late 1996 with version 7.6. This release represented the initial stage of Apple's new operating
+system roadmap. It was the first system to be called "Mac OS." 
+
+Apple's plan was to release full stand-alone installations once a year, with updates in between. Many 
+Power Macintosh and PowerBook models that were not supported by Mac OS 7.6 were supported by the 7.6.1 
+incremental update. The system originally slated to be version 7.7 would eventually become Mac OS 8.
+
+Mac OS 7.6 required a compatible computer that was 32-bit clean, with at least a 68030 processor. It
+offered performance enhancements in several areas such as virtual memory, memory management,
+PowerPC Resource Manager routines, system startup, and the File Manager's caching scheme. It also
+integrated key Apple technologies such as Cyberdog, OpenDoc, Open Transport, and QuickTime.
+
+Two phenomena were sweeping the computer world at that time: the Internet and Microsoft Windows 95. 
+Apple emphasized compatibility of Mac OS 7.6 with Windows 95 and highlighted the system's Internet 
+prowess. Mac OS 7.6 included built-in support for TCP/IP, PPP, and Apple Remote Access (ARA). Its 
+integrated Cyberdog technology could be used to incorporate Internet features into documents that used 
+"Live Objects." For example, live web links and email addresses could reside on the Desktop and could be 
+activated from the Finder.
+
