@@ -1,23 +1,30 @@
 Notes for Unix
 
-
 UNIX Operating System Source Code Level Six is the kernel source code, lightly edited by Lions 
 to better separate the functionality — system initialization and process management, interrupts 
 and system calls, basic I/O, file systems and pipes and character devices. All procedures and 
-symbols are listed alphabetically with a cross reference. 
+symbols are listed alphabetically with a cross reference. In addition, the materials for Unix 
+v7 is provided for better understanding the evolution of Unix. 
 
-Please take the weblinks for further reference. The ebook and the codes included in the folder 
-is downloaded in the following weblinks. Lions' Commentary on UNIX 6th Edition
+Please note that all the materials included in the folder（s） are publicly acknowedged prior to 
+the uploading in Github. Please take the weblinks for further reference. The ebook and the codes 
+included in the folder is downloaded in the following weblinks. 
+
+Lions' Commentary on UNIX 6th Edition
 
 https://cs3210.cc.gatech.edu/r/unix6.pdf
 
-Lions Unix v6 - Chapters 
+Lions Unix v6 - All Chapters 
 
 http://www.lemis.com/grog/Documentation/Lions/
 
-source code for Unix v6
+Online Source Code for Unix v6
 
 https://warsus.github.io/lions-/
+
+Unix v6 Source Code
+
+http://www.tom-yam.or.jp/2238/src/
 
 Unix v7
 
