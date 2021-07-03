@@ -17,6 +17,9 @@ https://opensource.apple.com/source/AppleFileSystemDriver/AppleFileSystemDriver-
 open source in general
 https://developer.apple.com/opensource/
 
+kern_return_t
+https://developer.apple.com/documentation/driverkit/kern_return_t
+
 example of mach_loader.c 
 https://opensource.apple.com/source/xnu/xnu-3247.10.11/bsd/kern/mach_loader.c.auto.html
 
