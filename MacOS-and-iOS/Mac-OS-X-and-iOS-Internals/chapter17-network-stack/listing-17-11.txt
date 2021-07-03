@@ -1,0 +1,10 @@
+Listing 17-11: The ip6_output and ip_output_list prototypes in XNU
+
+morpheus@ergo (../xnu/1699.26.8/)$ ./findfunc.sh ip6_output ip_output_list
+./bsd/netinet6/ip6_output.c:232:ip6_output( struct mbuf *m0, struct ip6_pktopts *opt, 
+struct  route_in6 *ro, int flags, struct ip6_moptions *im6o, struct ifnet **ifpp,   
+struct ip6_out_args
+ *ip6oa);
+./bsd/netinet/ip_output.c:265:ip_output_list( struct mbuf *m0, int packetchain, struct
+ mbuf *opt, struct route *ro, int flags, struct ip_moptions *imo, struct
+ ip_out_args *ipoa );
