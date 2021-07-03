@@ -1,0 +1,45 @@
+// Listing 9-1: Obtaining and making the prerequisites for building XNU
+
+ #
+ # Getting C++ filter
+ #
+$ curl http://opensource.apple.com/tarballs/cxxfilt/cxxfilt-9.tar.gz >
+       cxx.tar.gz
+$ tar xvf cxx.tar.gz
+$ cd cxxfilt-9
+$ mkdir -p build obj sym
+$ make install RC_ARCHS="i386 x86_64" RC_CFLAGS="-arch i386 -arch x86_64 -pipe" \
+ RC_OS=macos RC_RELEASE=Lion SRCROOT=$PWD OBJROOT=$PWD/obj \
+ SYMROOT=$PWD/sym DSTROOT=$PWD/build
+  #
+  # Getting DTrace – This is required for ctfconvert, a kernel build tool
+  #
+$ curl http://opensource.apple.com/tarballs/dtrace/dtrace-90.tar.gz > dt.tar.gz
+$ tar zxvf dt.tar.gz
+$ cd dtrace-90
+$ mkdir -p obj sym dst
+$ xcodebuild install -target ctfconvert -target ctfdump -target ctfmerge \
+ARCHS="i386 x86_64" SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym \
+DSTROOT=$PWD/dst
+  #
+  # Getting Kext Tools
+  #
+$ curl http://opensource.apple.com/tarballs/Kext_tools/Kext_tools-180.2.1.tar.gz \
+ > kt.tar.gz
+$ tar xvf kt.tar.gz
+$ cd Kext_tools-180.2.1
+$ mkdir -p obj sym dst
+$ xcodebuild install -target Kextsymboltool -target setsegname \
+ARCHS="i386 x86_64" SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym \
+ DSTROOT=$PWD/dst
+  #
+  # Getting Bootstrap commands – newer versions are available, but would
+  # force xcodebuild
+  #
+$ curl http://opensource.apple.com/tarballs/bootstrap_cmds/bootstrap_cmds-72.tar.gz \
+ > bc.tar.gz
+$ tar zxvf bc.tar.gz
+$ cd bootstrap_cmds-84
+$ mkdir -p obj sym dst
+$ make install RC_ARCHS="i386" RC_CFLAGS="-arch i386 -pipe" RC_OS=macos \
+RC_RELEASE=Lion SRCROOT=$PWD OBJROOT=$PWD/obj SYMROOT=$PWD/sym DSTROOT=$PWD/dst
