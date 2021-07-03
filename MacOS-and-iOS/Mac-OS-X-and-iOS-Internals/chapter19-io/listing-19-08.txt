@@ -1,0 +1,10 @@
+Listing 19-8: Isolating the IOKitDiagnostics property from the I/O Registry
+
+root@Padishah (/) # ioreg -w 0 -l | grep IOKitDiagnostics
+ |   “IOKitDiagnostics” = {”Instance allocation”=1363612,”IOMalloc allocation”
+=14976148,”Container allocation”=2885921,”Pageable allocation”=26894336
+,”Classes”={”IOSDIODevice”=1,”IOApplePartitionScheme”=0,”IOFlashTranslationLayer”=1,
+”IODPAudioDriver”=0,”AppleARMIODevice”=47,”AppleEmbeddedAudioPTTFunctionButton”=0,
+”AppleProfileManualTriggerClient”=0,”IOHDIXHDDriveInKernel”=1,”AppleBCMWLANTxBuffer”=10,
+”M2ScalerDARTVMAllocator”=0,”IOPlatformExpertDevice”=1,”AppleS5L8930XUSBPhy”=1,
+”KDIEncoding”=1,”IORangeAllocator”=17,”IOMobileFramebuffer”=1, ...

@@ -1,0 +1,13 @@
+Listing 19-2: Viewing registry planes on a MacBook Air and on an iPad 2.
+#
+# Macbook Air
+#
+morpheus@Ergo (∼)$ ioreg -l -w 0 | grep IORegistryPlanes
+  |   “IORegistryPlanes” = {”IOACPIPlane”=”IOACPIPlane”,”IOPower”=”IOPower”,
+”IODeviceTree”=”IODeviceTree”, “IOService”=”IOService”,”IOUSB”=”IOUSB”}
+#
+#... and, on a jailbroken iPad (with ioreg installed from Cydia)
+#
+root@Padishah (/) # ioreg -l -w 0 | grep RegistryPlanes
+  |   “IORegistryPlanes” = {”IODeviceTree”=”IODeviceTree”,”IOService”=”IOService”,
+”IOPower”=”IOPower”}

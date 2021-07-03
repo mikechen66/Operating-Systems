@@ -1,0 +1,13 @@
+// Listing 19-6-a: ioalloccount on OS X
+ morpheus@ergo (/)$ ioalloccount
+   Instance allocation = 0x0031c9c8 = 3186 K
+   Container allocation = 0x001f9ecd = 2023 K
+   IOMalloc allocation = 0x01ed5238 = 31572 K
+   Pageable allocation = 0x08e55000 = 145748 K
+
+ // Listing 19-6-b: ioalloccount on iOS
+root@Padishah (/) # ioalloccount
+   Instance allocation = 0x00154260 = 1360 K
+  Container allocation = 0x002cadd7 = 2859 K
+   IOMalloc allocation = 0x00e529c2 = 14666 K
+   Pageable allocation = 0x016e1000 = 23428 K

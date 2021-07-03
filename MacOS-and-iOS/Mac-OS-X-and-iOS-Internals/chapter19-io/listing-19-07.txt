@@ -1,0 +1,41 @@
+Listing 19-7: ioclasscount, sorted by the number of instances
+
+root@Padishah (/) # ioclasscount | sort -t'=’ -n -k 2
+AppleAKM8973S = 0
+AppleANX9836 = 0
+..
+AppleARMCHRPNVRAM = 0
+AppleARMCortexGeneralPurposeCounter = 0
+..
+_IOServiceJob = 0
+AppleA5AE2 = 1
+..
+IOServicePM = 49
+IOCommand = 53
+IOWorkLoop = 61
+AppleARMIISCommand = 64
+IOPMemory = 75
+IOSubMemoryDescriptor = 93
+OSObject = 94
+AppleSimpleUARTCommand = 96
+IOServiceMessageUserNotification = 100
+IODMACommand = 107
+IOTimerEventSource = 119
+_IOServiceInterestNotifier = 120
+IOService = 126
+OSKext = 157
+IOCommandGate = 187
+IOSurfaceDeviceCache = 274
+IOSurfaceClient = 276
+IOSurface = 281
+IOMachPort = 348
+IOGeneralMemoryDescriptor = 426
+IOMemoryMap = 430
+IOBufferMemoryDescriptor = 509
+OSSet = 567
+OSArray = 2393
+OSData = 2431
+OSSymbol = 3031
+OSDictionary = 3575
+OSString = 4634
+OSNumber = 5357

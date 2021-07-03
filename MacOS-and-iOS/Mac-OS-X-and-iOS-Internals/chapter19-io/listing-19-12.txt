@@ -1,0 +1,20 @@
+Listing 19-12: IOService::registerInterrupt
+/*!@function registerInterrupt
+   @abstract Registers a C function interrupt handler for a device supplying interrupts.
+   @discussion This method installs a C function interrupt handler to be called at 
+    primary interrupt time for a device's interrupt. Only one handler may be installed 
+    per interrupt source. IOInterruptEventSource provides a work loop based abstraction 
+    for interrupt delivery that may be more appropriate for work loop based drivers.
+   @param source The index of the interrupt source in the device.
+   @param target An object instance to be passed to the interrupt handler.
+   @param handler The C function to be called at primary interrupt time when the 
+    interrupt occurs. The handler should process the interrupt by clearing the interrupt
+     or by disabling the source.
+   @param refCon A reference constant for the handler's use.
+   @result An IOReturn code.
+     kIOReturnNoInterrupt is returned if the source is not valid;
+     kIOReturnNoResources is returned if the interrupt already has an installed handler.
+  */
+    virtual IOReturn registerInterrupt(int source, OSObject *target,
+                                       IOInterruptAction handler,
+                                       void *refCon = 0);
