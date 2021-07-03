@@ -1,5 +1,0 @@
-Listing 7-2: Two instances of launchd
-
-morpheus@ergo (/)$  ps -ef | grep sbin/launchd
-    0     1     0   0   6:32.43 ??         6:37.98 /sbin/launchd
-  501    95     1   0   0:06.44 ??         0:11.07 /sbin/launchd

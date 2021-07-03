@@ -1,4 +1,0 @@
-Listing 7-1: Attempting to start launchd will result in failure
-
-root@Minion (/)# /sbin/launchd 
-launchd: This program is not meant to be run directly.
