@@ -1,0 +1,34 @@
+Listing 3-8: using cat(1) to display the embedded entitlement plist in MobileSafari
+
+root@podicum (/)# cat –tv /Applications/MobileSafari.app/MobileSafari | tail -31 | more
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ˆI<key>com.apple.coreaudio.allow-amr-decode</key>
+ˆI<true/>
+ˆI<key>com.apple.coremedia.allow-protected-content-playback</key>
+ˆI<true/>
+ˆI<key>com.apple.managedconfiguration.profiled-access</key>
+ˆI<true/>
+ˆI<key>com.apple.springboard.opensensitiveurl</key>
+ˆI<true/>
+ˆI<key>dynamic-codesigning</key>       <!-- Required for Safari's Javascript engine !-->
+ˆI<true/>
+ˆI<key>keychain-access-groups</key>
+ˆI<array>
+ˆIˆI<string>com.apple.cfnetwork</string>
+ˆIˆI<string>com.apple.identities</string>
+ˆIˆI<string>com.apple.mobilesafari</string>
+ˆIˆI<string>com.apple.certificates</string>
+ˆI</array>
+ˆI<key>platform-application</key>
+ˆI<true/>
+ˆI<key>seatbelt-profiles</key>
+ˆI<array>
+ˆIˆI<string>MobileSafari</string> <!-- Safari has its own seatbelt/sandbox profile !-->
+ˆI</array>
+ˆI<key>vm-pressure-level</key>
+ˆI<true/>
+</dict>
+</plist>
