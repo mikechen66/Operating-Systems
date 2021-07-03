@@ -1,0 +1,28 @@
+Listing 12-10: kalloc zones. The bold zones are iOS specific
+
+root@podicum (/)# zprint kalloc 
+zone name                 size   size   size  #elts  #elts inuse  size count
+-------------------------------------------------------------------------------
+kalloc.8                     8    60K    60K   7680   7776  7392    4K   512 C
+kalloc.16                   16    88K   121K   5632   7776  5332    4K   256 C
+kalloc.24                   24   334K   410K  14280  17496 14034    4K   170 C
+kalloc.32                   32   124K   128K   3968   4096  3541    4K   128 C
+kalloc.40                   40   255K   360K   6528   9216  6374    4K   102 C
+kalloc.48                   48    87K   192K   1870   4096  1408    4K    85 C
+kalloc.64                   64   120K   256K   1920   4096  1612    4K    64 C
+kalloc.88                   88   229K   352K   2668   4096  2382    4K    46 C
+kalloc.112                 112   118K   448K   1080   4096   884    4K    36 C
+kalloc.128                 128   168K   512K   1344   4096  1133    4K    32 C
+kalloc.192                 192    94K   768K    504   4096   454    4K    21 C
+kalloc.256                 256   168K  1024K    672   4096   580    4K    16 C
+kalloc.384                 384   551K  1536K   1470   4096  1253    4K    10 C
+kalloc.512                 512    40K   512K     80   1024    42    4K     8 C
+kalloc.768                 768    82K   768K    110   1024   101    4K     5 C
+kalloc.1024               1024   104K  1024K    104   1024    79    4K     4 C
+kalloc.1536               1536    99K  1536K     66   1024    55   12K     8 C
+kalloc.2048               2048    84K  2048K     42   1024    41    4K     2 C
+kalloc.3072               3072    72K  3072K     24   1024    18   12K     4 C
+kalloc.4096               4096   136K  4096K     34   1024    32    4K     1 C
+kalloc.6144               6144   258K   576K     43     96    41   12K     2 C
+kalloc.8192               8192   144K 32768K     18   4096    16    8K     1 C
+kalloc.large             59163  2657K  2906K     46     50    46   57K     1
