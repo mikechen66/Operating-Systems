@@ -14,6 +14,11 @@ https://opensource.apple.com/
 code example
 https://opensource.apple.com/source/AppleFileSystemDriver/AppleFileSystemDriver-27/AppleFileSystemDriver.cpp.auto.html
 
-
 open source in general
 https://developer.apple.com/opensource/
+
+example of mach_loader.c 
+https://opensource.apple.com/source/xnu/xnu-3247.10.11/bsd/kern/mach_loader.c.auto.html
+
+exmaple of catch_mach_exception_raise
+https://developer.apple.com/documentation/kernel/1559883-catch_mach_exception_raise?changes=___1
