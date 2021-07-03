@@ -1,0 +1,32 @@
+Listing 9-4: Partial disassembly of bsd_init() of an iPhone 4S memory image
+               ...
+0x802B710E   LDR   R0, "bsd_init: Failed to create execve"...
+0x802B7110   BL    _panic
+0x802B7114   B     802B711A     ; Normal boot obviously skips over the panic
+0x802B7116   BL    _bsd_bufferinit
+0x802B711A   BL    sub_802040AC ; IOKitInitializeTime
+0x802B711E   MOVS  R6, #0
+0x802B7120   BL    sub_802B7D7C ; ubc_init
+0x802B7124   BL    sub_801E2070 ; devsw_init
+0x802B7128   BL    sub_802B5DE4 ; vfsinit
+0x802B712C   BL    sub_801AF7F4 ; mcache_init
+0x802B7130   BL    sub_801BE110 ; mbinit
+0x802B7134   BL    sub_800D858C ; net_str_id_init
+0x802B7138   BL    sub_802B7740 ; knote_init
+0x802B713C   BL    sub_802B74E8 ; aio_init
+0x802B7140   BL    sub_801B5320 ; pipeinit
+0x802B7144   BL    sub_801D24D4 ; pshm_lock_init
+0x802B7148   BL    sub_801D1AB0 ; psem_lock_init
+0x802B714C   BL    sub_801DBC0C ; pthread_init
+0x802B7150   BL    sub_802B8174 ; pshm_cache_init
+0x802B7154   BL    sub_802B814C ; psem_cache_init
+0x802B7158   BL    sub_802B7D28 ; time_zone_slock_init
+0x802B715C   BL    sub_801B2410 ; select_wait_queue_init 
+0x802B7160   BL    sub_802B74B8 ; stackshot_lock_init 
+0x802B7164   BL    sub_801ABEAC ; sysctl_register_fixed 
+0x802B7168   BL    sub_802B7B84 ; sysctl_mib_init 
+0x802B716C   BL    sub_800C8A04 ; dlil_init
+0x802B7170   BL    sub_802B63A8 ; protocol_kpi_init
+0x802B7174   BL    sub_802B7FFC ; socketinit
+0x802B7178   BL    sub_802B7EB8 ; domaininit
+0x802B717C   BL    sub_800FC040 ; iptap_init

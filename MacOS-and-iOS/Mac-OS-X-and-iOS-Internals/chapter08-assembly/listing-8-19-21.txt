@@ -1,0 +1,24 @@
+Listing 8-19: Interrupt checking on Intel architectures
+
+_ml_get_interrupts_enabled:
+ffffff800022b884        pushq   %rbp            ; standard
+ffffff800022b885        movq    %rsp,%rbp       ;   function prolog…
+ffffff800022b888        pushf                   ; push EFLAGS on stack
+ffffff800022b889        popq    %rax            ; and copy to RAX
+ffffff800022b88a        shrq    $0x09,%rax      ; Shift right 9 bits
+ffffff800022b88e        andl    $0x01,%eax      ; isolate (return) last bit
+ffffff800022b891        leave                   ; undo prolog
+ffffff800022b892        ret                     ; return (rax) to caller
+
+Listing 8-20 Interrupt checking on ARM architectures
+_ml_get_interrupts_enabled:
+8007c26c      mrs     r2, CPSR           ; R2 gets value of CPSR
+8007c270      mov     r0, #1  @ 0x1      ; R0 is set to 0x1
+8007c274      bic     r0, r0, r2, lsr #7 ; BIt-Clear (AND-NOT) i.e: R0 = R0 &ˆ(R2 <<7)
+8007c278      bx      lr                 ; return (R0) to caller
+
+Listing 8-21: Interrupt checking on the (now deprecated) PPC architectures
+_ml_get_interrupts_enabled:
+000c3464        mfmsr   r3             ; Move from Machine-Specific-Register to R3
+000c3468        rlwinm  r3,r3,17,31,31 ; Rotate Left Word Immediate then aNd with Mask
+000c346c        blr                    ; Return
