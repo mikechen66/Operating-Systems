@@ -1,0 +1,9 @@
+Listing 5-3: The kdebug message format
+/* The debug code consists of the following 
+*
+* ----------------------------------------------------------------------
+*|              |               |                               |Func   |
+*| Class (8)    | SubClass (8)  |          Code (14)            |Qual(2)|
+* ----------------------------------------------------------------------
+* The class specifies the higher level 
+*/

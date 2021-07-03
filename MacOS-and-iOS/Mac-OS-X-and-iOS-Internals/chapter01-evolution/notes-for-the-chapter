@@ -1,0 +1,19 @@
+OS X vs. Darwin
+
+There is sometimes some confusion between OS X and Darwin regarding the definitions of the two terms, and the relationship between them. Let's attempt to clarify this:
+OS X is the name given, collectively, to the entire operating system. As discussed in the next chapter, the operating system contains many components, of which Darwin is but one.
+
+Darwin is the UNIX-like core of the operating system, which is itself comprised of the kernel, XNU (an acronym meaning “X is Not UNIX”, similar to GNU's recursive acronym) and the runtime. Darwin is open source (save for its adaptation to ARM in iOS, discussed later), whereas other parts of OS X — Apple's frameworks — are not.
+There exists a straightforward correlation between the version of OS X and the version of Darwin. With the exception of OS X 10.0, which utilized Darwin 1.3. x, all other versions follow a simple equation:
+
+If (OSX.version == 10.x.y)
+ Darwin.version = (4+x).y
+
+So, for example, the upcoming Mountain Lion, being 10.8.0, is Darwin 12.0. The last release of Snow Leopard, 10.6.8, is Darwin 10.8. It's a little bit confusing, but at least it's consistent.
+
+
+References
+[1] Amit Singh's Technical History of Apple's Operating Systems: http://osxbook.com/book/bonus/chapter1/pdf/macosxinternals-singh-1.pdf
+[2] ARS Technica: http://arstechnica.com
+[3] Wikipedia's Mac OS X entry: http://en.wikipedia.org/wiki/Mac_OS_X
+[4] “Unauthorized modification of iOS has been a major source of instability, disruption of services, and other issues”: http://support.apple.com/kb/HT3743

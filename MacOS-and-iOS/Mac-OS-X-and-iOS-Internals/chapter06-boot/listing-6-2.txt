@@ -1,0 +1,100 @@
+Listing 6-2: A dump of the OS X device tree
+
+# Using ioreg to dump the device tree:
+# -p: focus on the IODeviceTree plane
+# -w 0: don't clip output.
+# –l: list properties
+# grep –v \"IO : discard occurrences of "IO in the output –
+#                i.e. disregard I/O kit properties
+morpheus@Ergo (/)$ ioreg –w 0 –l -p IODeviceTree | grep -v \"IO
++-o Root  <class IORegistryEntry, id 0x100000100, retain 11>
+  | {
+  |   … the Root entry is the IO Plane root, not the device tree root … 
+  |     I/O Kit planes are discussed in depth in the chapter dealing with I/O Kit
+  | }
+  | 
+  +-o /  <class IOPlatformExpertDevice, id 0x10000010f, registered, matched, active,
+ busy 0 (155183 ms), retain 25>
+    | {
+    |   "compatible" = <"MacBookAir3,2">
+    |   "version" = <"1.0">
+    |   "board-id" = <"Mac-942C5DF58193131B">
+    |   "serial-number" = <…..>
+    |   "clock-frequency" = <005a6b3f>
+    |   "manufacturer" = <"Apple Inc.">
+    |   "product-name" = <"MacBookAir3,2">
+    |   "system-type" = <02>
+    |   "model" = <"MacBookAir3,2">
+    |   "name" = <"/">
+    | }
+    | 
+    +-o chosen  <class IOService, id 0x100000101, !registered, !matched, active, busy 0,
+ retain 5>
+    | | {
+    | |   "boot-file-path" = <04045000… >
+    | |   "boot-args" = <"arch=x86_64">
+    | |   "machine-signature" = <00100000>
+    | |   "boot-uuid" = <"55799E60-4F79-2410-0401-1734FF9D9E90">
+    | |   "boot-kernelcache-adler32" = <aa19789d>
+    | |   "boot-file" = <"mach_kernel">
+    | |   "name" = <"chosen">
+    | |   "boot-device-path" =  < .. >
+    | | }
+    | | 
+    | +-o memory-map  <class IOService, id 0x100000102, !registered, !matched, active,
+ busy 0, retain 6>
+    |     {
+    |       "name" = <"memory-map">
+    |       "BootCLUT" = <00a0100200030000>
+    |       "Pict-FailedBoot" = <00b0100220400000>
+    |     }
+    |     
+    +-o efi  <class IOService, id 0x100000103, !registered, !matched, active, busy 0, 
+retain 7>
+    | | {
+    | |   "firmware-revision" = <0a000100>
+    | |   "device-properties" = <5d09..0000010000000  …06d00650000000500000057>
+    | |   "firmware-abi" = <"EFI64">
+    | |   "name" = <"efi">
+    | |   "firmware-vendor" = <4100700070006c0065000000>
+    | | }
+    | | 
+    | +-o runtime-services  <class IOService, id 0x100000104, !registered, !matched, 
+active, busy 0, retain 4>
+    | |   {
+    | |     "name" = <"runtime-services">
+    | |     "table" = <18ae99bf00000000>
+    | |   }
+    | |   
+    | +-o configuration-table  <class IOService, id 0x100000105, !registered, !matched, 
+active, busy 0, retain 12>
+    | | | {
+    | | |   "name" = <"configuration-table">
+    | | | }
+    | | | 
+    | | +-o EB9D2D31-2D88-11D3-9A16-0090273FC14D  <class IOService, id 0x100000106, 
+!registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "name" = <"EB9D2D31-2D88-11D3-9A16-0090273FC14D">
+    | | |     "guid" = <312d9deb882dd3119a160090273fc14d>
+    | | |     "table" = <00a071bf00000000>
+    | | |   }
+    | | |   
+    | | +-o 8868E871-E4F1-11D3-BC22-0080C73C8881  <class IOService, id 0x100000107, 
+!registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "alias" = <"ACPI_20">
+    | | |     "name" = <"8868E871-E4F1-11D3-BC22-0080C73C8881">
+    | | |     "table" = <14a096bf00000000>
+    | | |     "guid" = <71e86888f1e4d311bc220080c73c8881>
+    | | |   }
+    | | |   
+    | | +-o EB9D2D30-2D88-11D3-9A16-0090273FC14D  <class IOService, id 0x100000108, 
+!registered, !matched, active, busy 0, retain 4>
+    | | |   {
+    | | |     "alias" = <"ACPI">
+    | | |     "name" = <"EB9D2D30-2D88-11D3-9A16-0090273FC14D">
+    | | |     "table" = <00a096bf00000000>
+    | | |     "guid" = <302d9deb882dd3119a160090273fc14d>
+    | | |   }
+...
