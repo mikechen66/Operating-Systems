@@ -13,7 +13,7 @@ In the mobile sector including smartphones and tablets, Android's share is up to
 
 Modern computers support multiple modes of operation. CPUs with this capability offer at least two modes: user mode and supervisor mode. In general terms, supervisor mode operation allows unrestricted access to all machine resources, including all MPU instructions. User mode operation sets limits on instruction use and typically disallows direct access to machine resources. CPUs might have other modes similar to user mode as well, such as the virtual modes in order to emulate older processor types, such as 16-bit processors on a 32-bit processors on a 64-bit one.
 
-1. Kernel Mode
+### Kernel Mode
 
 At power-on or reset, the system begins in kernel mode. Once an operating system kernel has been loaded and started, the boundary between user mode and supervisor mode (also known as kernel mode) can be established.
 Kernel mode is used by the kernel for low level tasks that need unrestricted access to hardware, such as controlling how memory is accessed, and communicating with devices such as disk drives and video display devices. 
@@ -21,7 +21,7 @@ Kernel mode is used by the kernel for low level tasks that need unrestricted acc
 The system starts in kernel mode when it boots and after the operating system is loaded, it executes applications in user mode. There are some privileged instructions that can only be executed in kernel mode. These are interrupt instructions, input output management etc. If the privileged instructions are executed in user mode, it is illegal and a trap is generated. The mode bit is set to 0 in the kernel mode. It is changed from 0 to 1 when switching from kernel mode to user mode.
 
 
-2. User Mode
+### User Mode
 
 User mode is used for almost everything else. Application programs, such as word processors and database managers, operate within user mode, and can only access machine resources by turning control over to the kernel, a process which causes a switch to supervisor mode. The software interrupt causes the processor to switch from user mode to supervisor mode and begin executing code that allows the kernel to take control.
 
