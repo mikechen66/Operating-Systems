@@ -15,8 +15,7 @@ macOS originally was based on Unix-like NEXTSTEP (NeXT) with the Mach kernel com
 
 ## iOS
 
-iOS is really Mac OS X, but with some significant differences: The architecture for which the kernel and binaries are compiled is ARM-based, rather than Intel x86_64. The processors may be different (A4, A5,..., A14), but all are based on designs by ARM. The main advantage of ARM over Intel is in power management, which makes their processor designs attractive for mobile operating systems such as iOS, as well as its arch-nemesis, Android. The kernel sources remain closed — even though Apple promised to maintain XNU, the OS X Kernel, as open source, it apparently frees itself from that pledge for its mobile version. Occasionally, some of the iOS modifications leak into the publicly available sources (as can be seen by various #ifdef,__arm__, and ARM_ARCH conditionals), though these generally diminish in number with new kernel versions.
-
+iOS is really Mac OS X, but with some significant differences: The architecture for which the kernel and binaries are compiled is ARM-based, rather than Intel x86_64. The processors may be different (A4, A5,..., A14), but all are based on designs by ARM. The main advantage of ARM over Intel is in power management, which makes their processor designs attractive for mobile operating systems such as iOS, as well as its arch-nemesis, Android. The kernel sources remain closed — even though Apple promised to maintain XNU, the OS X Kernel, as open source, it apparently frees itself from that pledge for its mobile version. 
 
 
 Resources:
