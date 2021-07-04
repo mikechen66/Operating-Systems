@@ -7,10 +7,14 @@ Concepts, 9th Edition remains as robust as ever, helping you master the fundame
 concepts of operating systems for today’s emerging developments. The text brings 
 readers up to speed on core knowledge and skills, including:
 
-What operating systems are, what they do, and how they are designed and constructed
+Operating systems intro 
+
 Process, memory, and storage management
+
 Protection and security
+
 Distributed systems
+
 Special-purpose systems
 
 Beyond the basics, the book sports substantive revisions and organizational changes 
