@@ -10,14 +10,12 @@ The view of OS X and iOS Walks you through the phases of system startup--both Ma
 
 ## macOS
 
-macOS originally was based on Unix-like NEXTSTEP (NeXT) with the Mach kernel compiance with BSD. At macOS's core is a POSIX-compliant operating system built on top of the XNU kernel, with standard Unix facilities available from the command line interface. Apple has released the family of software as a free and open source operating system named darwin/xnu. On top of the darwin/xnu with BSD/Mach, Apple layered a number of components, including Core OS for CPU/NPU/GPU, Core Services, Media and App Kit and Aqua Interface, the NPU-supported AI, and the support to  iOS and iPadOS apps based on the 64-bit ARM-based Apple M1(the Apple SoC). 
+macOS originally was based on Unix-like NEXTSTEP (NeXT) with the Mach kernel compiance with BSD. At macOS's core is a POSIX-compliant operating system built on top of the XNU kernel, with standard Unix facilities available from the command line interface. Apple has released the family of software as a free and open source operating system named darwin/xnu. On the top of the darwin/xnu with BSD/Mach, Apple layered a number of components, including Core OS for CPU/NPU/GPU, Core Services, Media and App Kit and Aqua Interface, the NPU-supported AI, and the support to iOS and iPadOS apps based on the 64-bit ARM-based Apple M1(the Apple SoC). 
 
 
 ## iOS
 
 iOS is really Mac OS X, but with some significant differences: The architecture for which the kernel and binaries are compiled is ARM-based, rather than Intel x86_64. The processors may be different (A4, A5,..., A14), but all are based on designs by ARM. The main advantage of ARM over Intel is in power management, which makes their processor designs attractive for mobile operating systems such as iOS, as well as its arch-nemesis, Android. The kernel sources remain closed — even though Apple promised to maintain XNU, the OS X Kernel, as open source, it apparently frees itself from that pledge for its mobile version. Occasionally, some of the iOS modifications leak into the publicly available sources (as can be seen by various #ifdef,__arm__, and ARM_ARCH conditionals), though these generally diminish in number with new kernel versions.
-
-
 
 
 
