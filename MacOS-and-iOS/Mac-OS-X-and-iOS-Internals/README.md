@@ -1,0 +1,4 @@
+Notes:
+
+OS X and iOS are built according to simple architectural principles and foundations. This chapter presents these foundations, and then focuses further on the user-mode components of the system, in a bottom-up approach. The Kernel mode components will be discussed with greater equal detail, but not until the second part of this book.
+We will compare and contrast the two architectures — iOS and OS X. As you will see, iOS is in essence, a stripped down version of the full OS X with two notable differences: The architecture is ARM-based (as opposed to Intel x86 or x86_64), and some components have either been simplified or removed altogether, to accommodate for the limitations and/or features of mobile devices. Concepts such as GPS, motion-sensing, and touch — which are applicable at the time of this writing only to mobile devices — have made their debut in iOS, and are progressively being merged into the mainstream OS X in Lion.
