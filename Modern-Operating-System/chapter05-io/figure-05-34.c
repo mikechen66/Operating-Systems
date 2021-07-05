@@ -6,7 +6,7 @@
 
 main(int argc, char *argv[]) {
     Display disp;                            /* server identifier */ 
-    Window win;                              /*windowidentifier*/
+    Window win;                              /* windowidentifier */
     GC gc;                                   /* graphic context identifier */ 
     XEvent event;                            /* storage for one event */
     int running = 1;
