@@ -3,8 +3,8 @@
 
 
 while(TRUE) {                          /* repeat forever */
-    type prompt();                     /* display prompt on the screen */ 
-    read command(command, params);     /* read input line from keyboard */
+    type_prompt();                     /* display prompt on the screen */ 
+    read_command(command, params);     /* read input line from keyboard */
 
     pid = fork();                      /* fork off a child process */
     if (pid < 0) {
