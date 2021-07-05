@@ -17,7 +17,7 @@ void *producer(void *ptr) {                         /* produce data */
         while (buffer != 0)
             pthread_cond_wait(&condp, &the_mutex)
         buffer = i;                                 /* put item in buffer */
-        pthread_cond_signal(&condc);                /*wakeupconsumer*/ 
+        pthread_cond_signal(&condc);                /* wakeupconsumer */ 
         pthread_mutex_unlock(&the_mutex);           /* release access to buffer */
     }
     pthread_exit(0)

@@ -10,14 +10,14 @@ int rc = 0;                  /* # of processes reading or wanting to */
 void reader(void) {
     while (TRUE) { 
         down(&mutex);        /* get exclusive access to rc */
-        rc = rc + 1;         /*one reader more now */
+        rc = rc + 1;         /* one reader more now */
         if (rc == 1)         /* if this is the first reader ... */
             down(&db); 
 
         up(&mutex);          /* release exclusive access to rc */
         read_data_base();    /* access the data */
         down(&mutex);        /* get exclusive access to rc */
-        rc = rc − 1;         /*one reader fewer now */
+        rc = rc − 1;         /* one reader fewer now */
 
         if (rc == 0)         /* if this is the last reader ... */
             up(&db); 
