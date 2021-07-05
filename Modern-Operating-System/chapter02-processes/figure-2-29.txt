@@ -1,0 +1,14 @@
+
+// Figure 2-29. Implementation of mutex lock and mutex unlock.
+
+mutex lock:
+	TSL REGISTER, MUTEX      | copy mutex to register and set mutex to 1
+	CMP REGISTER, #0         | was mutex zero?
+	JZE ok                   | if it was zero, mutex was unlocked, so return	
+	CALL thread_yield        | mutex is busy; schedule another thread
+	JMP mutex_look ok        | try again
+	RET                      | return to caller; critical region entered
+
+mutex unlock:
+	MOVE MUTEX, #0           | store a 0 in mutex | return to caller
+	RET                      | return to caller
