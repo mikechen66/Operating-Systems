@@ -28,6 +28,6 @@ void consumer(void) {
         count = count − 1;
         if (count == N − 1) 
             wakeup(producer); 
-        consume_item(item);    /*printitem*/
+        consume_item(item);    /* printitem*/
     } 
 }
