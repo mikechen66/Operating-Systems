@@ -1,7 +1,6 @@
 
 // Figure 12-1. Execution Paradigms
 
-
 // (a) Algorithmic code
 
 main() {
@@ -15,7 +14,6 @@ main() {
     keep_going();
     exit(0); 
 }
-
 
 
 // (b) Event-driven code

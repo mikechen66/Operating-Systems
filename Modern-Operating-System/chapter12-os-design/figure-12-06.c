@@ -1,7 +1,6 @@
 
 // Figure 12-6. 
 
-
 // (a) CPU-dependent conditional compilation. 
 
 #define CPU IA32
@@ -17,7 +16,6 @@ init( ) {
 /* UltraSPARC initialization here. */ 
 #endif
 }
-
 
 
 // (b) Word-length-de- pendent conditional compilation.

@@ -8,14 +8,14 @@
 int bit_count(int byte) {              /* Count the bits in a byte. */
     int i, count = 0;
     for (i = 0; i < BYTE_size, i++)    /* loop over the bits in a byte */ 
-        if ((byte >> i) & 1)           /*if this bit is a 1, add to count */ 
+        if ((byte >> i) & 1)           /* if this bit is a 1, add to count */ 
             count++;
     return(count)                      /* return sum */
 }
 
 
 // (b) A macro to count the bits.
-/*Macro to add up the bits in a byte and return the sum. */
+/* Macro to add up the bits in a byte and return the sum. */
 #define bit_count(b) ((b&1) + ((b>>1)&1) + ((b>>2)&1) + ((b>>3)&1) + \
     ((b>>4)&1) + ((b>>5)&1) + ((b>>6)&1) + ((b>>7)&1))
 
