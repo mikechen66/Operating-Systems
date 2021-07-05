@@ -1,7 +1,7 @@
 
 /* Figure 1-19. 
-/* A stripped-down shell. Throughout this book, 
-   TRUE is assumed to be defined as 1 
+ * A stripped-down shell. Throughout this book, 
+ * TRUE is assumed to be defined as 1 
  */ 
 
 #define TRUE 1
