@@ -1,5 +1,5 @@
 
-// Figure 10-7. A highly simplified shell.
+// Figure 10-7. A highly simplified shell
 
 
 while(TRUE) {                          /* repeat forever */
