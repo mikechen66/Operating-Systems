@@ -1,7 +1,6 @@
 
 // Figure 6-2. Deadclock -- two scenarios 
 
-
 /* (a) Deadlock-free code */
 
 typedef int semaphore;
@@ -46,3 +45,4 @@ void process_B(void) {
     up(&resource_1); 
     up(&resource_2);
 }
+

@@ -1,8 +1,7 @@
 
-// Figure 6-1. Using a semaphore to protect resources. 
+// Figure 6-1. Using a semaphore to protect resources 
 
-
-// (a) One resource. 
+// (a) One resource
 
 typedef int semaphore; 
 semaphore resource 1;
@@ -14,7 +13,7 @@ void process_A(void) {
 }
 
 
-// (b) Two resources.
+// (b) Two resources
 
 typedef int semaphore;
 semaphore resource_1; 
