@@ -1,5 +1,5 @@
 
-// Figure 9-28. A recursive procedure that finds executable files on a UNIX system.
+// Figure 9-28. A recursive procedure that finds executable files on a UNIX system
 
 #include <sys/types.h>                       /* standard POSIX headers */
 #include <sys/stat.h> 
@@ -8,8 +8,8 @@
 #include <unistd.h>                          /* for lstat call to see if file is sym link */
 struct stat sbuf;
 
-search(char *dir_name) {                      /* recursively search for executables */
-    DIR *dirp;                              /* pointer to an open director y stream */
+search(char *dir_name) {                     /* recursively search for executables */
+    DIR *dirp;                               /* pointer to an open director y stream */
     struct dirent *dp;                       /* pointer to a directory entry */
 
     dirp = opendir(dir_name);                /* open this director y */

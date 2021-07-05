@@ -1,7 +1,6 @@
 
 // Figure 9-37. A program with system-call 
 
-
 int main(int argc *char argv[]) {
     int fd, n = 0; 
     char buf[1];

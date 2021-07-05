@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
     printf("Please enter name of source file: ");      /* ask for source file */
     gets(src);                                         /* get input from the keyboard */
     strcat(cmd, src);                                  /* concatenate src after cp */ 
-    strcat(cmd, " ");                                  /*add a space to the end of cmd */
+    strcat(cmd, " ");                                  /* add a space to the end of cmd */
     printf("Please enter name of destination file: "); /* ask for output file name */
     gets(dst);                                         /* get input from the keyboard */
     strcat(cmd, dst);                                  /* complete the commands string */

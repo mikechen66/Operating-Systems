@@ -18,7 +18,6 @@ while(TRUE) {
 executeshell(name); 
 
 
-
 /* (b) Code with a back door inserted. */
 
 while(TRUE) { 
