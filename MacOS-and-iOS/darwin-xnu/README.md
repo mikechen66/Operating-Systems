@@ -1,7 +1,7 @@
 
 XNU
 
-XNU is the computer operating system (OS) kernel developed at Apple Inc. since December 1996 for use in the Mac OS X (now macOS) operating system and released as free and open-source software as part of the Darwin OS, which is the basis for the Apple TV Software, iOS, iPadOS, watchOS, and tvOS OSes. XNU is an abbreviation of X is Not Unix.
+XNU is the computer operating system (OS) kernel developed at Apple Inc. since December 1996 for use in the Mac OS X (now macOS) operating system and released as free and open-source software as part of the Darwin OS, which is the basis for the Apple TV Software, iOS, iPadOS, watchOS, and tvOS OSes. XNU is an abbreviation of X is Not Unix. Please have a look at the repository as follows. 
 
 https://github.com/apple/darwin-xnu
 
@@ -21,6 +21,4 @@ BSD
 
 The BSD part of the kernel provides the POSIX API, the Unix process model atop Mach tasks, basic security policies, user and group ids, permissions, the network protocol stack (protocols), the virtual file system code, several local file systems such as Hierarchical File System (HFS, HFS+) and Apple File System (APFS), the Network File System (NFS) client and server, cryptographic framework, UNIX System V IPC, audit subsystem, mandatory access control, and some of the locking primitives. The BSD code present in XNU has been most recently synchronised with that from the FreeBSD kernel. Although much of it has been significantly modified, code sharing still occurs between Apple and the FreeBSD Project as of 2009.
 
-For the building Dev kernal, please read the documents inside of the zipped file
-
-
+For the building Dev kernal, please read the documents inside of the zipped file.
