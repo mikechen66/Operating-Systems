@@ -6,6 +6,7 @@
 #include <dirent.h> 
 #include <fcntl.h> 
 #include <unistd.h>                          /* for lstat call to see if file is sym link */
+
 struct stat sbuf;
 
 search(char *dir_name) {                     /* recursively search for executables */

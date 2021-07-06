@@ -38,8 +38,8 @@ void A() {
 
 // Dangling Pointers
 
-int *A = (int *) malloc (128); /* allocate space for 128 integers */
-int year_of_birth = read_user_input ( ); /* read an integer from standard input */ 
+int *A = (int *) malloc(128); /* allocate space for 128 integers */
+int year_of_birth = read_user_input(); /* read an integer from standard input */ 
 
 if (input < 1900) {
     printf("Error, year of birth should be greater than 1900 \n");
