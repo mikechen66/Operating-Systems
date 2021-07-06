@@ -12,3 +12,5 @@ folowing weblink.
 https://www.man7.org/tlpi/code/online/all_files_by_chapter.htm
 
 https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
+
+https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
