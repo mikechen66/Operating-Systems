@@ -8,7 +8,7 @@ void process_A(void) {
         wait_fixed_time();
         acquire_lock(&resource_1);
     }
-    use_both_resources( ); 
+    use_both_resources(); 
     release_lock(&resource_2); 
     release_lock(&resource_1);
 }
@@ -20,7 +20,7 @@ void process_A(void) {
             wait_fixed_time();
             acquire_lock(&resource_2);
     }
-    use_both_resources( ); 
+    use_both_resources(); 
     release_lock(&resource_1); 
     release_lock(&resource_2);
 }
