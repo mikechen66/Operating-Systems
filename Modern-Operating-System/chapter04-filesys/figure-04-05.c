@@ -4,15 +4,15 @@
 /* File copy program. Error checking and reporting is minimal. */
 
 
-#include <sys/types.h>            /* include necessary header files */ 
+#include <sys/types.h>                     /* include necessary header files */ 
 #include <fcntl.h>
 #include <stdlib.h>
 #include <unistd.h>
 
-int main(int argc, char *argv[]); /* ANSI prototype */
+int main(int argc, char *argv[]);          /* ANSI prototype */
 
-#define BUF SIZE 4096 
-#define OUTPUT MODE 0700
+#define BUF_SIZE 4096 
+#define OUTPUT_MODE 0700
 
 int main(int argc, char *argv[]) {
     int in_fd, out_fd, rd_count, wt_count;
@@ -44,6 +44,7 @@ int main(int argc, char *argv[]) {
     /* Close the files */ 
     close(in_fd); 
     close(out_fd);
+    
     if (rd_count == 0)
         exit(0);
     else 
