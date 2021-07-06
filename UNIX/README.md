@@ -5,7 +5,9 @@ Initially intended for use inside the Bell System, AT&T licensed Unix to outside
 
 Unix systems are characterized by a modular design that is sometimes called the "Unix philosophy". According to the philosophy, the Unix should provide a set of simple tools, each of which performs a limited, well-defined function. A unified filesystem (the Unix filesystem) and an inter-process communication mechanism known as "pipes" serve as the main means of communication, a shell scripting and command language (the Unix shell) is used to combine the tools to perform complex workflows.Unix distinguishes itself from its predecessors as the first portable operating system: almost the entire operating system is written in the C programming language, which allows Unix to operate on numerous platforms.
 
-Lions' Commentary on UNIX 6th Edition 1976, by John Lions, contained analytical commentary on the source code of the 6th Edition Unix computer operating system "resident nucleus" software, plus copy formatted and indexed by Lions, commonly referred to as the Lions Book. Itself an exemplar of the early success of UNIX as portable code for a publishing platform, Lion's work was typeset using UNIX tools, on systems running code ported at the University, similar to that which it documented, see page vi. It was commonly held to be the most copied book in computer science. Despite its age, "the Lions Book" is still considered an excellent commentary on simple, high quality code.
+UNIX Network Programming 3ED Volume 1
+
+https://github.com/unpbook/unpv13e
 
 Due to the commercial success, it in turn led to Unix fragmenting into multiple, similar but often slightly mutually-incompatible systems including DYNIX, HP-UX, SunOS/Solaris, AIX, and Xenix. In the late 1980s, AT&T Unix System Laboratories and Sun Microsystems developed System V Release 4 (SVR4), which was subsequently adopted by many commercial Unix vendors.
 
