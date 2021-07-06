@@ -10,3 +10,5 @@ and design review of Linux kernel-user-space interfaces. Please have a look at t
 folowing weblink. 
 
 https://www.man7.org/tlpi/code/online/all_files_by_chapter.htm
+
+https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
