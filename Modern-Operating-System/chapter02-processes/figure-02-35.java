@@ -27,8 +27,8 @@ public class ProducerConsumer {
         public void run() {                       //run method contains the thread code
             int item;
             while (true) {                        // consumer loop
-                item = mon.remove( );
-                consume_item (item); 
+                item = mon.remove();
+                consume_item(item); 
             }
         }
         private void consume_item(int item) {...} // actually consume 

@@ -31,7 +31,7 @@ void take_forks(int i) {         /* i: philosopher number, from 0 to N−1 */
     down(&s[i]);                 /* block if forks were not acquired */
 }
 
-void put forks(i) {              /* i: philosopher number, from 0 to N−1 */
+void put_forks(i) {              /* i: philosopher number, from 0 to N−1 */
     down(&mutex);                /* enter critical region */
     state[i] = THINKING;         /* philosopher has finished eating */
     test(LEFT);                  /* see if left neighbor can now eat */
