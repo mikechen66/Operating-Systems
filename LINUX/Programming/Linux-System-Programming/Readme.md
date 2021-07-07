@@ -18,3 +18,5 @@ https://github.com/madmax440/linux-systems-programming-with-c
 https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530
 
 https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
+
+https://repo.zenk-security.com/Linux%20et%20systemes%20d.exploitations/Linux-in-a-Nutshell-6th-Edition.pdf
