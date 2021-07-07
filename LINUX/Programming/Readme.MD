@@ -10,7 +10,8 @@ Kerrisk are the outstanding system programmers in the industry.
 Therefore, it is impoerative to learn from them, adopt from them and create
 more robust applications to serve the world as a whole. Please read about 
 the linux kernel with the following weblink. The first is the Linux repository 
-by Torvalds. The others are supporting materials.
+by Torvalds. The others are supporting materials. Please take the resources 
+as follows for reference 
 
 https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
 
@@ -31,3 +32,8 @@ https://github.com/raoulmillais/linux-system-programming/tree/master/src
 https://www.oreilly.com/library/view/linux-system-programming/9781449341527/
 
 https://bitbucket.org/icl/papi/src/master/src/components/
+
+https://www.cs.utexas.edu/~rossbach/cs380p/papers/ulk3.pdf
+
+https://github.com/PacktPublishing/Hands-on-System-Programming-with-Linux
+
