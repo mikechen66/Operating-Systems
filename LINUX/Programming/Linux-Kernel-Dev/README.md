@@ -10,3 +10,5 @@ Resources:
 https://en.wikipedia.org/wiki/Linux_kernel
 
 https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
+
+https://www.cs.utexas.edu/~rossbach/cs380p/papers/ulk3.pdf
