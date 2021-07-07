@@ -7,12 +7,14 @@ Robert Love has taken on the unenviable task of teaching the reader about almost
 
 Resources: 
 
+https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
+
+https://docs.01.org/clearlinux/latest/guides/kernel/kernel-development.html
+
+https://github.com/PacktPublishing/Hands-on-System-Programming-with-Linux
+
 https://en.wikipedia.org/wiki/Linux_kernel
 
 https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530
 
-https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
-
 https://www.cs.utexas.edu/~rossbach/cs380p/papers/ulk3.pdf
-
-https://github.com/PacktPublishing/Hands-on-System-Programming-with-Linux
