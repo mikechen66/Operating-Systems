@@ -1,3 +1,0 @@
-thread_attr.c: dangling "struct sched_param" that doesn't belong
-sigev_thread.c: include <sys/signal.h>, failure to test realtime sig option
-Makefile: include libs last.
