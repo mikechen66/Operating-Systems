@@ -9,7 +9,12 @@ Linux is one of the most prominent examples of free and open-source software col
 
 Resources
 
+linux: https://github.com/torvalds/linux
+
 x86: http://www.kernel.org/
+
 ARM: http://www.arm.linux.org.uk/developer/
+
 MIPS: http://www.linux-mips.org/
+
 Linux Docs: https://tldp.org/
