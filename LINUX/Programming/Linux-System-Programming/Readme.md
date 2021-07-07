@@ -11,6 +11,8 @@ Love clearly distinguishes between POSIX standard functions and special services
 only by Linux. With the foucs on multithreading, the book provides an in-depth look at 
 Linux from both a theoretical and applied perspective. 
 
+https://github.com/raoulmillais/linux-system-programming
+
 https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530
 
 https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
