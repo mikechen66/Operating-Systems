@@ -18,3 +18,5 @@ https://en.wikipedia.org/wiki/Linux_kernel
 https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530
 
 https://www.cs.utexas.edu/~rossbach/cs380p/papers/ulk3.pdf
+
+https://repo.zenk-security.com/Linux%20et%20systemes%20d.exploitations/Linux-in-a-Nutshell-6th-Edition.pdf
