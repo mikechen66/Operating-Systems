@@ -11,7 +11,13 @@ Therefore, it is impoerative to learn from them, adopt from them and create
 more robust applications to serve the world as a whole. Please read about 
 the linux kernel with the following weblink. The first is the Linux repository 
 by Torvalds. The others are supporting materials. Please take the resources 
-as follows for reference 
+as follows for reference. 
+
+https://github.com/torvalds/linux
+
+https://github.com/raoulmillais/linux-system-programming/tree/master/src
+
+https://github.com/PacktPublishing/Hands-on-System-Programming-with-Linux
 
 https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
 
@@ -19,15 +25,11 @@ https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
 
 https://www.man7.org/tlpi/code/online/all_files_by_chapter.htm
 
-https://github.com/torvalds/linux
-
 https://www.kernel.org/doc/html/latest/
 
 https://www.linux.org/
 
 https://en.wikipedia.org/wiki/Linux
-
-https://github.com/raoulmillais/linux-system-programming/tree/master/src
 
 https://www.oreilly.com/library/view/linux-system-programming/9781449341527/
 
@@ -35,5 +37,4 @@ https://bitbucket.org/icl/papi/src/master/src/components/
 
 https://www.cs.utexas.edu/~rossbach/cs380p/papers/ulk3.pdf
 
-https://github.com/PacktPublishing/Hands-on-System-Programming-with-Linux
-
+https://mentorembedded.github.io/advancedlinuxprogramming/resources.html
