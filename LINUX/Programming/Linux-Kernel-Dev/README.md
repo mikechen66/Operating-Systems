@@ -9,6 +9,8 @@ Resources:
 
 https://en.wikipedia.org/wiki/Linux_kernel
 
+https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530
+
 https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
 
 https://www.cs.utexas.edu/~rossbach/cs380p/papers/ulk3.pdf
