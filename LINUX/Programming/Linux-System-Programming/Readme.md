@@ -13,6 +13,8 @@ Linux from both a theoretical and applied perspective.
 
 https://github.com/raoulmillais/linux-system-programming
 
+https://github.com/madmax440/linux-systems-programming-with-c
+
 https://www.amazon.com/Linux-System-Programming-Talking-Directly/dp/1449339530
 
 https://igm.univ-mlv.fr/~yahya/progsys/linux.pdf
