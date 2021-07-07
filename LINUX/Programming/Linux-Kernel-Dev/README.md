@@ -1,36 +1,12 @@
-# GPU-Parallel-Program-Development
-Tolga Soyata
+# Linux Kernel Development
+Robert Love
 
-CUDA (Compute Unified Device Architecture) is a parallel computing platform and application programming interface (API) model created by Nvidia. It allows software developers and software engineers to use a CUDA-enabled graphics processing unit (GPU) for general purpose processing – an approach termed GPGPU (general-purpose computing on graphics processing units). The CUDA platform is a software layer that gives direct access to the GPU's virtual instruction set and parallel computational elements, for the execution of compute kernels.
+Right now, Linux is the most flexible and powerful operating system that has ever been created, running everything from the tiniest cell phones and embedded devices to more than 90 percent of the world’s top 500 supercomputers. No other operating system has ever been able to scale so well and meet the challenges of all of these different hardware types and environments.
 
-The CUDA platform is designed to work with programming languages such as C, C++, and Fortran. This accessibility makes it easier for specialists in parallel programming to use GPU resources. CUDA-powered GPUs also support programming frameworks such as OpenMP, OpenACC and OpenCL;and HIP by compiling such code to CUDA. 
+Robert Love has taken on the unenviable task of teaching the reader about almost every system call on a Linux system. In so doing, he has produced a tome that will allow you to fully understand how the Linux kernel works from a user-space perspective, and also how to harness the power of this system.
 
 Resources: 
 
-Book Excerpt: 
+https://en.wikipedia.org/wiki/Linux_kernel
 
-https://andrewboggio.com/pdf/soyata.crc18.pdf
-
-
-Nvidia CUDA C Programming: 
-
-https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html
-
-
-Stanford CUDA Parallel Programming: 
-
-https://mc.stanford.edu/cgi-bin/images/b/ba/M02_2.pdf
-
-Parallel Programming for GPUs - Utah CS6963 
-
-http://www.cs.utah.edu/~mhall/cs6963s09/
-
-
-CUDA By Example(2011): 
-
-http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf
-
-
-Programming for GPUs using CUDA in C/C++
-
-https://www.bu.edu/tech/support/research/software-and-programming/programming/multiprocessor/gpu-computing/cuda-c/
+https://mirrors.edge.kernel.org/pub/linux/kernel/people/rml/
