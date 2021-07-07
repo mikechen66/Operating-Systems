@@ -5,3 +5,11 @@ Linux is the leading operating system on servers, over 96.4% of the top 1 millio
 Linux also runs on embedded systems, i.e. devices whose operating system is typically built into the firmware and is highly tailored to the system. This includes routers, automation controls, smart home technology, televisions, automobiles (Tesla, Audi, Benz, Toyota), digital video recorders, video game consoles, and smartwatches. 
 
 Linux is one of the most prominent examples of free and open-source software collaboration. The source code may be used, modified and distributed commercially or non-commercially by anyone under the terms of its respective licenses, such as the GNU General Public License. 90% of all cloud infrastructure is powered by Linux including supercomputers and cloud providers. 74% of smartphones in the world are Linux-based.
+
+
+Resources
+
+x86: http://www.kernel.org/
+ARM: http://www.arm.linux.org.uk/developer/
+MIPS: http://www.linux-mips.org/
+Linux Docs: https://tldp.org/
