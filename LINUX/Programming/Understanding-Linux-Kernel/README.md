@@ -1,4 +1,5 @@
 # Understanding Linux Kernel 3ED
+Daniel P. Bovet and Marco Cesati
 
 The book takes readers on a guided tour of the important data structures, algorithms, 
 and programming tricks used in kernel development. Important Intel-specific features 
