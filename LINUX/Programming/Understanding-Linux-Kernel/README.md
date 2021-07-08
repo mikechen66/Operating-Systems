@@ -13,11 +13,11 @@ some of the code may be obsolete.
 Please take the following weblink for reference. Please make your own judgement because 
 the code is not certified. 
 
-Linux V2.6
+Linux Kernel V2.6
 
 https://github.com/tomwei666/kenerl-2.6.11-ULK3
 
-Linux by Torvalds 
+Linux Kernel by Torvalds 
 
 https://github.com/torvalds/linux
 
