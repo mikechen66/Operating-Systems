@@ -23,7 +23,7 @@ https://github.com/torvalds/linux
 
 ## Resources:
 
-I am pleased to provide the resources for further reference. 
+The following resources are provided for further reference. 
 
 https://www.oreilly.com/library/view/understanding-the-linux/0596005652/
 
