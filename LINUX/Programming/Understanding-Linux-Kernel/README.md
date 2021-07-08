@@ -17,7 +17,7 @@ Linux V2.6
 
 https://github.com/tomwei666/kenerl-2.6.11-ULK3
 
-Linux Update 
+Linux by Torvalds 
 
 https://github.com/torvalds/linux
 
