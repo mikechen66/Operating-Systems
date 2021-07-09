@@ -9,7 +9,7 @@ five top languages including C, Java, C++ , Makefile and Python.
 
 ## AOSP General Mirror Portal 
 
-https://github.com/aosp-mirro
+https://github.com/aosp-mirror?page=1
 
 ## Major Sub-repositories 
 
