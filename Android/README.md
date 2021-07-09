@@ -3,7 +3,7 @@ https://source.android.com/
 
 ## Introduction 
 
-Android has the hierachical levels of Linux Kernel, HAL/HIDL, Android Runtime, 
+Android has the hierarchical levels of Linux Kernel, HAL/HIDL, Android Runtime, 
 Native Libraries, Android Framework and Apps. Android is developed with the 
 five top languages including C, Java, C++ , Makefile and Python. 
 
