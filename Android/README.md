@@ -3,7 +3,9 @@ https://source.android.com/
 
 ## Introduction 
 
-Android is developed with the five top languages including C, Java, C++ , Makefile and Python. 
+Android has the hierachical levels of Linux Kernel, HAL/HIDL, Android Runtime, 
+Native Libraries, Android Framework and Apps. Android is developed with the 
+five top languages including C, Java, C++ , Makefile and Python. 
 
 ## AOSP General Mirror Portal 
 
@@ -11,7 +13,8 @@ https://github.com/aosp-mirro
 
 ## Major Sub-repositories 
 
-There are 5 major sub-repositories in the ASOP directory. 
+There are five major sub-repositories respectively to correspond with the five 
+languages in the ASOP directory. Please have a look at the weblinks as follows. 
 
 platform_frameworks_base (Java)
 
