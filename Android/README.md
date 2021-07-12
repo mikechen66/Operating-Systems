@@ -5,7 +5,13 @@ https://source.android.com/
 
 Android has the hierarchical levels of Linux Kernel, HAL/HIDL, Android Runtime, 
 Native Libraries, Android Framework and Apps. Android is developed with the 
-five top languages including C, Java, C++ , Makefile and Python. 
+five top languages including C, Java, C++ , Makefile and Python. A complete 
+Android System including Linux Kernel, AOSP(Android Open Source Project) and 
+GMS(Google Mobile Service). GMS is a propriatory system held by Google. 
+
+## Goolge Linux Kernel Common
+
+https://github.com/aosp-mirror/kernel_common
 
 ## AOSP General Mirror Portal 
 
