@@ -12,6 +12,7 @@ resources more efficiently and friendly to users who that run blazingly fast on 
 and that may even be easier to maintain.
 
 ## Content
+
 The threads model used in the book is commonly called POSIX threads or more formally the POSIX 
 1003.1c–1995 standard. Pthreads interfaces are included with Sun’s Solaris; Hewlett-Packard’s 
 Tru64 UNIX, OpenVMS, NonStop platform, and HP-UX; IBM’s AIX, OS/400, and OS/ 390; SGI’s IRIX; 
