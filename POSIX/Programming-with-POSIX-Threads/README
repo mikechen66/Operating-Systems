@@ -1,14 +1,30 @@
-These are the source files for the programming examples in
-"Programming With POSIX(r) Threads". The Makefile is pre-configured
-for Digital UNIX, but includes the appropriate definitions to build on
-Solaris (uncomment the Solaris lines and comment the Digital UNIX
-lines).
 
-Some of these examples have been repaired since the original printing
-of the book. Some differ from the examples printed in the latest
-printing, as well, because the changes were too large to fit. The
-signal-based suspend/resume program, susp.c, has been substantially
-revised to correct a number of problems with the original version.
+## Introduction
+
+This ground breaking book is about “threads” and how to use them. “Thread” is just a name for a 
+basic software “thing” that can do work on a computer. A thread is smaller, faster, and more 
+maneuverable than a traditional process. In fact, once threads have been added to an operating 
+system, a "process" becomes just data—address space, files, and so forth—plus one or more threads 
+that do something with all that data. With threads, you can build applications that utilize system 
+resources more efficiently and friendly to users who that run blazingly fast on multiprocessors, 
+and that may even be easier to maintain.
+
+## Content
+The threads model used in the book is commonly called POSIX threads or more formally the POSIX 
+1003.1c–1995 standard. Pthreads interfaces are included with Sun’s Solaris; Hewlett-Packard’s 
+Tru64 UNIX, OpenVMS, NonStop platform, and HP-UX; IBM’s AIX, OS/400, and OS/ 390; SGI’s IRIX; 
+SCO’s UnixWare; Apple’s Mac OS X; and Linux (any major distribution). It includes Introduction, 
+Threads, Synchronization, Thread Channels, Advanced Threaded Programming, POSIX Adjustment to 
+Threads, Real Code, Debugging, POSIX Threads Reference and Future Standardization.
+
+## Source 
+
+These are the source files for programming examples in "Programming With POSIX Threads". The 
+Makefile is pre-configuredfor Digital UNIX, but includes the appropriate definitions to build 
+on Solaris. Some of these examples have been repaired since the original printing of the book. 
+Some differ from the examples printed in the latest printing  because the changes were too large 
+to fit. The signal-based suspend/resume program, susp.c, has been substantially revised to correct 
+a number of problems with the original version.
 
 alarm.c				Simple synchronous alarm clock
 alarm_cond.c			Threaded alarm clock using condition variable
@@ -99,8 +115,3 @@ sigwait				Waits for 5 SIGINT signals (^C)
 thread				One thread writes to stdout while
 				another waits for input from
 				stdin. (Satisfy the read to exit.)
-
-/---[ Dave Butenhof ]-----------------------[ butenhof@zko.dec.com ]---\
-| Compaq Computer Corporation             110 Spit Brook Rd ZKO2-3/Q18 |
-| 603.884.7460, FAX 603.884.0120                  Nashua NH 03062-2698 |
-\-----------------[ Better Living Through Concurrency ]----------------/
