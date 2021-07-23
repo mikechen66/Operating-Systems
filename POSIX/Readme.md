@@ -12,3 +12,5 @@ On Linux, the posix_openpt and getpt functions no longer attempt to use legacy (
 
 
 https://sourceware.org/pipermail/libc-alpha/2021-February/122207.html
+
+http://open-std.org/JTC1/SC22/WG15/
